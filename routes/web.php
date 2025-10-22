@@ -25,7 +25,10 @@ Route::get('/', function () {
 
 Route::get('/smartflood', function () {
 
-    return view('smartflood', ['tujuansistem' => 'u sistem IoT terintegrasi Smart City untuk memantau Anggi muka air, curah
-hujan, dan kelembapan tanah di beberapa daerah rawan banjir', 'lokasisensor' => 'Kecamatan: Dayeuhkolot, Baleendah, Majalaya', 'Teknologi' => 'Sensor KeAnggian Air, Curah Hujan,
-Kelembapan Tanah']);
+    return view('smartflood', [
+        'tujuansistem' => 'u sistem IoT terintegrasi Smart City untuk memantau Anggi muka air, curah
+        hujan, dan kelembapan tanah di beberapa daerah rawan banjir',
+        'lokasisensor' => 'Kecamatan: Dayeuhkolot, Baleendah, Majalaya',
+        'Teknologi' => 'Sensor KeAnggian Air, Curah Hujan,Kelembapan Tanah'
+    ]);
 });
